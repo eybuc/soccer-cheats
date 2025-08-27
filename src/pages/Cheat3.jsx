@@ -1,0 +1,21 @@
+import React from 'react';
+import CheatTemplate from '../components/CheatTemplate';
+
+export default function Cheat3() {
+  const cheatData = {
+    number: 3,
+    title: "חוק המגנטים",
+    icon: "🧲",
+    problem: " כָּל שַׂחְקָן בַּקְּבוּצָה שֶׁלְּךָ הוּא מַגְנֵט שֶׁדּוֹחֶה אוֹתְךָ",
+    secretCode: "הכדור מושך אליו שחקנים כמו מגנט. השתמש בזה לטובתך.",
+    explanation: `דַּמְיֵן שֶׁאַתָּה וְהַחֲבֵרִים שֶׁלְּךָ לַקְּבוּצָה הֵם מַגְנֵטִים עִם אוֹתוֹ קֹטֶב. 
+    אַתֶּם לֹא יְכוֹלִים לְהִצָּמֵד,
+     תִּשְׁמֹר מֶרְחָק מֵהַחֲבֵרִים שֶׁלְּךָ. ותִּתְפָּרְסוּ עַל כָּל הַמִּגְרָשׁ.
+     כְּשֶׁאַתֶּם רְחוֹקִים אֶחָד מֵהַשֵּׁנִי, אַתֶּם מַכְרִיחִים אֶת הַיָּרִיב לָרוּץ יוֹתֵר.
+     אַתֶּם יוֹצְרִים "כְּבִישִׁים" פְּנוּיִים בֵּינֵיכֶם לִמְסִירוֹת.
+    `,
+    mission: " כְּשֶׁאֵין לְךָ אֶת הַכַּדּוּר, תִּסְתַּכֵּל עַל הַמִּקּוּם שֶׁלְּךָ. הַאִם אַתָּה קָרוֹב מִדַּי לְחָבֵר אַחֵר?\n אִם כֵּן, זוּז. תִּמְצָא אֶת \"הָאִי\" הַפָּנוּי שֶׁלְּךָ עַל הַמִּגְרָשׁ"
+  };
+
+  return <CheatTemplate {...cheatData} />;
+}
