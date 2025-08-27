@@ -66,6 +66,15 @@ export default function CheatTemplate({
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
+          {/* Logo */}
+          <div className="mb-6">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/he/thumb/7/75/Netanyalogo.png/250px-Netanyalogo.png"
+              alt="מכבי נתניה לוגו"
+              className="mx-auto h-24 w-auto object-contain"
+            />
+          </div>
+          
           <div className="text-8xl mb-4">{icon}</div>
           <Badge variant="secondary" className="mb-4 text-lg px-4 py-2 bg-yellow-400 text-black font-bold">
             צ'יט #{number}

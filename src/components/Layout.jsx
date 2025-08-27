@@ -10,7 +10,7 @@ export default function Layout({ children, currentPageName }) {
   useEffect(() => {
     const title = "ספר הצ'יטים הסודי -  מכבי נתניה ";
     const description = "ספר הצ'יטים הסודי של מכבי נתניה   - לעיני שחקני הקבוצה בלבד!";
-    const imageUrl = "/src/assets/MaccabiNetanyaNewlogo2021.png"; // Logo Maccabi Netanya
+    const imageUrl = "https://upload.wikimedia.org/wikipedia/he/thumb/7/75/Netanyalogo.png/250px-Netanyalogo.png"; // Maccabi Netanya Logo
 
     // Update page title
     document.title = title;
@@ -61,7 +61,11 @@ export default function Layout({ children, currentPageName }) {
                 to={createPageUrl('Home')} 
                 className="flex items-center gap-3 text-white hover:text-yellow-300 transition-colors"
               >
-                <img src="/src/assets/MaccabiNetanyaNewlogo2021.png" alt=" מכבי נתניה - טרום ג' " className="w-10 h-auto" />
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/he/thumb/7/75/Netanyalogo.png/250px-Netanyalogo.png"
+                  alt="מכבי נתניה לוגו"
+                  className="w-10 h-10 object-contain"
+                />
                 <div>
                   <div className="font-bold text-xl">ספר הצ'יטים הסודי</div>
                   <div className="text-sm text-gray-400"> מכבי נתניה - טרום ג' </div>

@@ -31,7 +31,13 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/src/assets/MaccabiNetanyaNewlogo2021.png" alt="לוגו מכבי נתניה" className="w-32 h-auto mx-auto mb-6" />
+            <div className="mb-6">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/he/thumb/7/75/Netanyalogo.png/250px-Netanyalogo.png"
+                alt="מכבי נתניה לוגו"
+                className="w-32 h-32 mx-auto object-contain"
+              />
+            </div>
             <h1 className="text-6xl font-bold text-white mb-6">
               ספר הצ'יטים הסודי -  
               טרום ג'
