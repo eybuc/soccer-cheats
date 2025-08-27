@@ -4,7 +4,7 @@ import CheatTemplate from '../components/CheatTemplate';
 export default function Cheat3() {
   const cheatData = {
     number: 3,
-    title: "חוק המגנטים",
+    title: "חֹק הַמַּגְנֵטִים",
     icon: "🧲",
     problem: " כָּל שַׂחְקָן בַּקְּבוּצָה שֶׁלְּךָ הוּא מַגְנֵט שֶׁדּוֹחֶה אוֹתְךָ",
     secretCode: "הכדור מושך אליו שחקנים כמו מגנט. השתמש בזה לטובתך.",

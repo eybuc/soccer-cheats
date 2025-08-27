@@ -8,9 +8,9 @@ export default function Layout({ children, currentPageName }) {
   const isHomePage = location.pathname === createPageUrl('Home') || location.pathname === '/';
 
   useEffect(() => {
-    const title = "ספר הצ'יטים הסודי - ביתר טוברוק";
-    const description = "ספר הצ'יטים הסודי של ביתר טוברוק - לעיני שחקני הקבוצה בלבד!";
-    const imageUrl = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/17dd819a4_download.png"; // Logo Beitar Tubruk
+    const title = "ספר הצ'יטים הסודי -  מכבי נתניה ";
+    const description = "ספר הצ'יטים הסודי של מכבי נתניה   - לעיני שחקני הקבוצה בלבד!";
+    const imageUrl = "/src/assets/MaccabiNetanyaNewlogo2021.png"; // Logo Maccabi Netanya
 
     // Update page title
     document.title = title;
@@ -61,10 +61,10 @@ export default function Layout({ children, currentPageName }) {
                 to={createPageUrl('Home')} 
                 className="flex items-center gap-3 text-white hover:text-yellow-300 transition-colors"
               >
-                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/17dd819a4_download.png" alt="לוגו ביתר טוברוק" className="w-10 h-auto" />
+                <img src="/src/assets/MaccabiNetanyaNewlogo2021.png" alt=" מכבי נתניה - טרום ג' " className="w-10 h-auto" />
                 <div>
                   <div className="font-bold text-xl">ספר הצ'יטים הסודי</div>
-                  <div className="text-sm text-gray-400">ביתר טוברוק</div>
+                  <div className="text-sm text-gray-400"> מכבי נתניה - טרום ג' </div>
                 </div>
               </Link>
               
@@ -84,10 +84,10 @@ export default function Layout({ children, currentPageName }) {
       {!isHomePage && (
         <footer className="bg-black text-center py-8 border-t border-yellow-500/20">
           <div className="text-yellow-400 font-bold text-lg mb-2">
-            BEITAR TUBRUK
+            מכבי נתניה - טרום ג'
           </div>
           <div className="text-gray-400 text-sm">
-            ספר הצ'יטים הסודי - לעיני שחקני ביתר טוברוק בלבד
+            ספר הצ'יטים הסודי - לעיני שחקני מכבי נתניה בלבד
           </div>
         </footer>
       )}

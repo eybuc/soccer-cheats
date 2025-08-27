@@ -72,7 +72,7 @@ export default function CheatTemplate({
           </Badge>
           <h1 className="text-5xl font-bold text-white mb-4">{title}</h1>
           <div className="text-yellow-300 text-xl">
-            ביתר טוברוק - סֵפֶר הַצִ'יטִים הַסּוֹדִי
+           מכבי נתניה - סֵפֶר הַצִ'יטִים הַסּוֹדִי
 
           </div>
         </motion.div>

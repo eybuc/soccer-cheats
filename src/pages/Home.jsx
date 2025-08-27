@@ -8,16 +8,16 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
   const cheats = [
-    { id: 1, title: "נגיעת המפתח", icon: "🔑" },
-    { id: 2, title: "תמסור ותעלם", icon: "👻" },
-    { id: 3, title: "חוק המגנטים", icon: "🧲" },
-    { id: 4, title: "מבט הינשוף", icon: "🦉" },
-    { id: 5, title: "הקיר האנושי", icon: "🧱" },
-    { id: 6, title: "צ'יט הקלע", icon: "🏹" },
-    { id: 7, title: "גנב הזמן", icon: "⏱️" },
-    { id: 8, title: "המרגל השקט", icon: "🕵️" },
-    { id: 9, title: "צ'יט הברק", icon: "⚡" },
-    { id: 10, title: "כפתור המחק", icon: "🔄" }
+    { id: 1, title: "נְגִיעַת הַמַּפְתֵּח", icon: "🔑" },
+    { id: 2, title: "תִּמְסֹר וְתֵעָלֵם ", icon: "👻" },
+    { id: 3, title: "חֹק הַמַּגְנֵטִים", icon: "🧲" },
+    { id: 4, title: "מַבָּט הַיַּנְשׁוּף", icon: "🦉" },
+    { id: 5, title: "הַקִּיר הָאֱנוֹשִׁי ", icon: "🧱" },
+    { id: 6, title: "צִ'יט הַקֶּלַע", icon: "🏹" },
+    { id: 7, title: "גַּנָּב הַזְּמַן", icon: "⏱️" },
+    { id: 8, title: "הַמְּרַגֵּל הַשָּׁקֵט", icon: "🕵️" },
+    { id: 9, title: "צִ'יט הַבָּרָק ", icon: "⚡" },
+    { id: 10, title: "כַּפְתּוֹר הַמַּחַק", icon: "🔄" }
   ];
 
   return (
@@ -31,12 +31,13 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/17dd819a4_download.png" alt="לוגו ביתר טוברוק" className="w-32 h-auto mx-auto mb-6" />
+            <img src="/src/assets/MaccabiNetanyaNewlogo2021.png" alt="לוגו מכבי נתניה" className="w-32 h-auto mx-auto mb-6" />
             <h1 className="text-6xl font-bold text-white mb-6">
-              ספר הצ'יטים הסודי
+              ספר הצ'יטים הסודי -  
+              טרום ג'
             </h1>
             <div className="text-yellow-300 text-2xl font-medium mb-4">
-              מאת: ביתר טוברוק
+              מאת:ג'וני
             </div>
             <div className="text-gray-200 text-lg mb-8">
               (לעיני שחקני הקבוצה בלבד!)
@@ -44,7 +45,7 @@ export default function Home() {
             
             <div className="flex justify-center items-center gap-4 mb-8">
               <Shield className="w-8 h-8 text-yellow-400" />
-              <div className="text-white text-xl font-medium">BEITAR TUBRUK</div>
+              <div className="text-white text-xl font-medium">מכבי נתניה</div>
               <Shield className="w-8 h-8 text-yellow-400" />
             </div>
           </motion.div>
@@ -92,7 +93,7 @@ export default function Home() {
                 </p>
                 
                 <p className="text-2xl font-bold text-center text-yellow-400">
-                  יאללה טוברוק! 🔥
+                  יאללה נתניה! 🔥
                 </p>
                 
                 <p className="text-right text-gray-400 font-medium">
@@ -151,11 +152,10 @@ export default function Home() {
             <CardContent className="p-8 text-center">
               <Target className="w-16 h-16 text-black mx-auto mb-4" />
               <h3 className="text-3xl font-bold text-black mb-4">
-                קדימה למגרש!
+              קָדִימָה לַמִּגְרָשׁ!
               </h3>
               <p className="text-gray-800 text-xl">
-                עכשיו, הכלים בידיים שלכם. ככל שתשתמשו בהם יותר, כך תהיו שחקנים טובים יותר.
-              </p>
+              עַכְשָׁו, הַכֵּלִים בַּיָּדַיִם שֶׁלָּכֶם. כְּכָל שֶׁתִּשְׁתַּמְּשׁוּ בָּהֶם יוֹתֵר, כָּךְ תִּהְיוּ שַׂחְקָנִים טוֹבִים יוֹתֵר.              </p>
             </CardContent>
           </Card>
         </motion.div>
