@@ -102,8 +102,7 @@ export default function Home() {
                 </p>
                 
                 <p className="text-right text-gray-400 font-medium">
-                הַמַּאֲמֵן
-                </p>
+                גּ'וֹנִי                </p>
               </div>
             </CardContent>
           </Card>
