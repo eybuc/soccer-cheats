@@ -8,8 +8,8 @@ export default function Layout({ children, currentPageName }) {
   const isHomePage = location.pathname === createPageUrl('Home') || location.pathname === '/';
 
   useEffect(() => {
-    const title = "ספר הצ'יטים הסודי -  מכבי נתניה ";
-    const description = "ספר הצ'יטים הסודי של מכבי נתניה   - לעיני שחקני הקבוצה בלבד!";
+    const title = "סֵפֶר הַצֵּ'טִים הַסּוֹדִי - מִכְבִי נְתַנְיָה";
+    const description = "סֵפֶר הַצֵּ'טִים הַסּוֹדִי - לַעֲיָנִיִּים שַׂחְקָנִים מִכְבִי נְתַנְיָה בִּלְבַד";
     const imageUrl = "https://upload.wikimedia.org/wikipedia/he/thumb/7/75/Netanyalogo.png/250px-Netanyalogo.png"; // Maccabi Netanya Logo
 
     // Update page title
@@ -67,14 +67,14 @@ export default function Layout({ children, currentPageName }) {
                   className="w-10 h-10 object-contain"
                 />
                 <div>
-                  <div className="font-bold text-xl">ספר הצ'יטים הסודי</div>
+                  <div className="font-bold text-xl"> סֵפֶר הַצֵּ'טִים הַסּוֹדִי</div>
                   <div className="text-sm text-gray-400"> מכבי נתניה - טרום ג' </div>
                 </div>
               </Link>
               
               <div className="flex items-center gap-2 text-gray-400">
                 <Smartphone className="w-5 h-5" />
-                <span className="text-sm">לשחקנים בלבד</span>
+                <span className="text-sm">לַשַּׂחְקָנִים בִּלְבַד</span>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Layout({ children, currentPageName }) {
             מכבי נתניה - טרום ג'
           </div>
           <div className="text-gray-400 text-sm">
-            ספר הצ'יטים הסודי - לעיני שחקני מכבי נתניה בלבד
+            סֵפֶר הַצֵּ'טִים הַסּוֹדִי - לַעֲיָנִיִּים שַׂחְקָנִים מִכְבִי נְתַנְיָה בִּלְבַד
           </div>
         </footer>
       )}

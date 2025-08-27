@@ -39,14 +39,14 @@ export default function Home() {
               />
             </div>
             <h1 className="text-6xl font-bold text-white mb-6">
-              ספר הצ'יטים הסודי -  
-              טרום ג'
+            סֵפֶר הַצִּ'טִים הַסּוֹדִי -
+                          טרום ג'
             </h1>
             <div className="text-yellow-300 text-2xl font-medium mb-4">
               מאת:ג'וני
             </div>
             <div className="text-gray-200 text-lg mb-8">
-              (לעיני שחקני הקבוצה בלבד!)
+            (לְעֵינֵי שַׂחְקָנֵי הַקְּבוּצָה בִּלְבַד!)
             </div>
             
             <div className="flex justify-center items-center gap-4 mb-8">
@@ -69,7 +69,7 @@ export default function Home() {
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <BookOpen className="w-8 h-8 text-yellow-400" />
-                <h2 className="text-3xl font-bold text-yellow-400">הקדמה</h2>
+                <h2 className="text-3xl font-bold text-yellow-400">הַקְדָּמָה</h2>
               </div>
               
               <div className="space-y-6 text-lg text-gray-300 leading-8">
@@ -117,7 +117,7 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <h3 className="text-4xl font-bold text-white text-center mb-12">
-            10 הצ'יטים הסודיים
+            10 הַצִּ'טִים הַסּוֹדִיִּים
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
