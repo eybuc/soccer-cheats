@@ -117,7 +117,7 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <h3 className="text-4xl font-bold text-white text-center mb-12">
-            10 הַצִּ'טִים הַסּוֹדִיִּים
+            10 הַצִּ'יטִים הַסּוֹדִיִּים
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
