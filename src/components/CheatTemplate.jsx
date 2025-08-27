@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { Button } from './ui/Button';
@@ -17,6 +17,11 @@ export default function CheatTemplate({
   mission
 }) {
   const navigate = useNavigate();
+
+  // Scroll to top when component mounts (page navigation)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const getNavigationButtons = () => {
     const prevCheat = number > 1 ? number - 1 : null;

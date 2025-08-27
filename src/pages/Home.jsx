@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { Button } from '../components/ui/Button';
@@ -7,6 +7,11 @@ import { BookOpen, Star, Shield, Target } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Home() {
+  // Scroll to top when component mounts (page navigation)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const cheats = [
     { id: 1, title: "נְגִיעַת הַמַּפְתֵּח", icon: "🔑" },
     { id: 2, title: "תִּמְסֹר וְתֵעָלֵם ", icon: "👻" },
